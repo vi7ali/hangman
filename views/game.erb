@@ -1,0 +1,12 @@
+<main>
+  <img src="<%= generate_image_link %>" alt="hangman">
+  <pre><%= show_hidden_word %></pre>
+  <p>Tries left: <%= tries %></p>
+  <p>Type a letter or a word</p>
+  <form action="/game" method="post">
+    <input type="text" name="guess" id="guess">
+    <input type="submit" value="OK">
+  </form>
+  <p><%= message %></p>
+  <p>Past guesses: <%= guesses %></p>
+</main>

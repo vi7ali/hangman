@@ -1,0 +1,10 @@
+<main>
+  <h1>You Lost</h1>
+  <img src="<%= generate_image_link %>"" alt="hangman">
+  <pre><%= show_hidden_word %></pre>
+  <p>Tries left: <%= tries %></p>    
+  <p>The word was <%= word %></p>
+  <form action="/">
+    <input type="submit" value="Try again">
+  </form>  
+</main>

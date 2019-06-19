@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+header, h1, h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;  
+}
+
+body {
+  background-color: #004a69;
+  color: #a5afb8;  
+}
+
+main {
+  display: block;
+  margin: auto;
+  width: 25%;
+  min-width: 600px;
+  border: 1px solid #5f7c92;
+  border-radius: 50px;
+  text-align: center;
+}
